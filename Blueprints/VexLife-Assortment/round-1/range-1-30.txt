@@ -164,3 +164,39 @@ DECISIONS / OPEN LOOPS
   explicitly accepted as a temporary held asset edge.
 
 ---
+
+
+[VexLife Assortment][Round 1][Index 04]
+state=CONFIRMED
+
+VICTOR
+okay so then before we do any 'continuing', I already preserved the screenshots in my lucid spark but I was curious about 'scalability' and long term discussion' like do you perceive any issues if we keep honing or refining in a PR scope? Like at what point do you think we'd need to do actual 'implementation' and then do we start a fresh PR? Or like i guess we could do that huh, like preserve 'checkpoints' cuz isn't this similar to the 'journal architecture anyway' like are we not 'Meta using VexLife?' I guess this is technically a 'Seed or Project right?" like a Frontier? Like at what point does a Frontier become a project, like whats our process map for 'using the nodes' and defining them? Like i think initially you already have the map right, so i think that map should still be put in the PR as like the 'intention.txt' or idk how you'd wanna frame it but we should preserve foundations so revisitability doesn't get lost
+
+CHATGPT
+Yes. The Assortment lane is effectively dogfooding the VexLife grammar, but the layers should not collapse.
+
+The active Round PR is best treated as design-discussion / provenance occupancy, analogous to a Journal-like record of what happened and why. CURRENT.txt is the Continue-like exact resume pointer. INTENTION.md is the slow-moving foundation anchor. Actual implementation should occur in a fresh bounded implementation PR from current main once a candidate earns promotion; the design PR should not quietly become the product-source writer.
+
+The current Assortment subject is best classified as a Frontier/Seed being HONED, not yet an implementation Project. Length of discussion does not promote it. Promotion is earned when the intended human outcome, rightful owner, scope/non-goals, current source/dependencies, placement/surface hypothesis, finite first implementation increment, proof/review criteria, and why-now/wake predicate are stable enough to execute.
+
+Recommended lifecycle:
+SEED/CANDIDATE -> HONING -> PLANNED -> ACTIVE PROJECT/FEATURE WORK -> REVIEW -> ACCEPTED/NARROWED/HELD/REJECTED/SUPERSEDED, with PARKED available before implementation.
+
+The Round PR can span many indices while one coherent design phase is still being honed. Checkpoint/close a Round when a foundation stabilizes, reviewability degrades because scope is too broad, an implementation promotion boundary is earned, or a distinct branch of design inquiry deserves its own phase. A new thread alone never causes a new Round.
+
+Created Blueprints/VexLife-Assortment/INTENTION.md as the durable slow-moving foundation file. It preserves the recovered Home/Terrain intention, the Frontier->Project promotion map, the PR/checkpoint model, and the separation between INTENTION, CURRENT, chronological Round logs, assets, implementation occupancy, and canonical product source.
+
+ASSETS
+- No new visual asset required for this process/lifecycle decision.
+
+DECISIONS / OPEN LOOPS
+- CONFIRMED: active Assortment Round PR = design-discussion/provenance occupancy, not product implementation PR.
+- CONFIRMED: INTENTION.md = slow-moving design foundation and revisitability anchor.
+- CONFIRMED: CURRENT.txt = exact continuation pointer.
+- CONFIRMED: long discussion alone does not promote a Frontier seed into a Project.
+- CONFIRMED: implementation promotion earns a fresh bounded implementation PR from current main under the rightful owner.
+- CONFIRMED: fresh thread != new Round; Round checkpoint follows design-phase boundaries/reviewability.
+- DESIGN CANDIDATE: Seed/Candidate -> Honing -> Planned -> Active Work -> Review -> terminal disposition lifecycle.
+- NEXT: return to Home Field node-definition work using this lifecycle/process map as the foundation.
+
+---
