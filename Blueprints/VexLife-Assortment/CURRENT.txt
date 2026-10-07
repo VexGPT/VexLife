@@ -1,41 +1,34 @@
 [VexLife Assortment]
 currentRound=1
-lastRecordedIndex=02
-nextIndex=03
-state=PROJECT_BOOT_MAP_AND_ASSET_SYNC_POLICY_CORRECTED
+lastRecordedIndex=03
+nextIndex=04
+state=A004_FRESH_INSTANCE_BOOT_VERIFIED_WITH_ASSET_SYNC_HELD
 
-currentFocus=
-  Finish one-time Assortment Project installation using A003: compact boot-map
-  Project Instructions plus ordered Project Sources. Remove human startup burden.
+bootstrapGeneration=
+  VEXLIFE-ASSORTMENT-ORIENTATION-20261007-A004
+
+freshInstanceAudit=
+  Project boot map and ordered Project Sources are coherent.
+  Required Local Vex Operations / VexRelay fresh adoption was completed.
+  Live GitHub occupancy was discovered and adopted without human resume syntax.
 
 currentDesignFrontier=
-  After A003 is installed, resume the top-most Home Field exploration one node
-  at a time. Revisit which candidate districts belong visibly at layer one and
-  preserve Continue as a strong resumable-path candidate.
+  Resume the top-most Home Field exploration one node at a time.
+  Revisit which candidate districts deserve first-layer visibility.
+  Preserve Continue as a strong resumable-path candidate.
+  Re-evaluate the provisional projection / subject / seed visual grammar.
 
 currentWorkingDirection=
-  - Project Instructions are a compact read-order boot map, not a duplicate manual.
-  - Fresh instance reads ordered Project Sources, re-grounds GitHub, then answers Victor naturally.
-  - Fresh thread != new round.
-  - Fresh instance != new writer.
   - Home is a semantic field, not a fixed nine-button menu.
   - CURRENT CONTEXT is the center of the field.
   - Continue remains a high-value resumable projection/path candidate.
-  - Node-tag colors remain design-candidate visual grammar.
-  - Visuals are first-class continuity.
-  - Asset durability is capability-routed, not fixed to an arbitrary index cadence.
-  - Exact authorized GitHub connector effect precedes Relay.
-  - Relay is fallback/host transport only when the exact effect actually requires it.
-
-assetSyncPolicy=
-  DURABLE_VISUAL_CHECKPOINT triggers asset flush when one or more applies:
-  - an image becomes materially referenced/confirmed/rejected in design reasoning;
-  - a fresh-thread/round handoff is approaching;
-  - the queued asset batch is operationally useful to flush (e.g. about 10 indices);
-  - a round is closing;
-  - loss of local/project-only asset custody would impair continuity.
-  Route: direct exact GitHub binary write if practical/available; otherwise governed Relay/host batch.
-  Ten indices is a batching heuristic, not protocol authority.
+  - Candidate districts may exist without all appearing as equal first-layer nodes.
+  - Project Instructions are a read-order boot map only.
+  - Fresh thread != new round.
+  - Fresh instance != new writer.
+  - Project Sources != image archive.
+  - Visual assets resolve from GitHub by stable asset key/path.
+  - Connector-direct precedes Relay when the exact authorized effect exists.
 
 github=
   repository=VexGPT/VexLife
@@ -44,6 +37,11 @@ github=
   pullRequestState=DRAFT_OPEN
   mutableHead=REFRESH_BEFORE_EFFECT
 
+heldEdge=
+  INDEX_00_VISUAL_BINARY_SYNC
+  round-1/assets currently contains manifest.txt but not the named image binaries.
+  Do not claim those asset keys resolve to image bytes until the files are actually present.
+
 nextAction=
-  Install A003 in the VexLife Assortment ChatGPT Project, then continue Round 1
-  at Index 03 with the top-layer Home Field / first-node exploration.
+  Continue Round 1 design work from Index 04 after re-grounding live CURRENT/log.
+  The next design focus is the empty-grid Home Field and first-layer node assortment.
