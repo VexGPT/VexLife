@@ -1,0 +1,23 @@
+[VexLife Assortment]
+currentRound=1
+currentIndex=00
+state=ROUND_BOOTSTRAPPED
+
+currentFocus=
+  Establish durable Victor ↔ ChatGPT discussion continuity before continuing
+  the top-layer Home Field / node-by-node interface exploration.
+
+currentDesignQuestion=
+  Should the top-most Home Field show all candidate districts equally, or should
+  it surface a smaller contextual set with Continue emphasized as a resume path?
+
+currentWorkingDirection=
+  - Home is a semantic field, not a fixed nine-button menu.
+  - CURRENT CONTEXT is the center of the field.
+  - Continue is valuable as a prominent resumable projection/path.
+  - Candidate districts may exist without all appearing as equal first-layer nodes.
+  - Node-tag colors are visual grammar only and remain design-candidate semantics.
+
+nextAction=
+  Continue one node at a time, starting with the top-most Home Field composition,
+  and append each Victor + ChatGPT exchange to the active round log.
