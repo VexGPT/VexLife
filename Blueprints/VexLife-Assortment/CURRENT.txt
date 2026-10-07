@@ -1,19 +1,15 @@
 [VexLife Assortment]
 currentRound=1
-lastRecordedIndex=03
-nextIndex=04
-state=A004_FRESH_INSTANCE_BOOT_VERIFIED_WITH_ASSET_SYNC_HELD
+lastRecordedIndex=04
+nextIndex=05
+state=FOUNDATION_INTENT_AND_PROMOTION_MAP_PRESERVED
 
 bootstrapGeneration=
   VEXLIFE-ASSORTMENT-ORIENTATION-20261007-A004
 
-freshInstanceAudit=
-  Project boot map and ordered Project Sources are coherent.
-  Required Local Vex Operations / VexRelay fresh adoption was completed.
-  Live GitHub occupancy was discovered and adopted without human resume syntax.
-
 currentDesignFrontier=
-  Resume the top-most Home Field exploration one node at a time.
+  Resume the top-most Home Field exploration one node at a time, now using the
+  preserved Foundation Intent and Frontier -> Project promotion model.
   Revisit which candidate districts deserve first-layer visibility.
   Preserve Continue as a strong resumable-path candidate.
   Re-evaluate the provisional projection / subject / seed visual grammar.
@@ -23,12 +19,22 @@ currentWorkingDirection=
   - CURRENT CONTEXT is the center of the field.
   - Continue remains a high-value resumable projection/path candidate.
   - Candidate districts may exist without all appearing as equal first-layer nodes.
-  - Project Instructions are a read-order boot map only.
+  - INTENTION.md preserves slow-moving design foundations.
+  - CURRENT.txt preserves exact continuation.
+  - Round logs preserve chronological discussion/provenance.
+  - Active Assortment Round PR is design provenance, not product implementation.
+  - Frontier/Seed discussion promotes to Project only when an executable bounded work definition is earned.
+  - Implementation uses a fresh bounded implementation PR from current main under the rightful owner.
   - Fresh thread != new round.
   - Fresh instance != new writer.
   - Project Sources != image archive.
   - Visual assets resolve from GitHub by stable asset key/path.
   - Connector-direct precedes Relay when the exact authorized effect exists.
+
+processMap=
+  SEED/CANDIDATE -> HONING -> PLANNED -> ACTIVE PROJECT/FEATURE WORK -> REVIEW
+  -> ACCEPTED | NARROWED | HELD | REJECTED | SUPERSEDED
+  PARKED is valid before implementation when the wake predicate is not true.
 
 github=
   repository=VexGPT/VexLife
@@ -40,8 +46,7 @@ github=
 heldEdge=
   INDEX_00_VISUAL_BINARY_SYNC
   round-1/assets currently contains manifest.txt but not the named image binaries.
-  Do not claim those asset keys resolve to image bytes until the files are actually present.
 
 nextAction=
-  Continue Round 1 design work from Index 04 after re-grounding live CURRENT/log.
-  The next design focus is the empty-grid Home Field and first-layer node assortment.
+  Continue Round 1 from Index 05 with Home Field / node-definition work.
+  Use INTENTION.md as the revisitability foundation rather than replaying the full ledger.
