@@ -45,3 +45,20 @@ route and VexRelay/qualified host only when the exact effect requires it.
 A useful batch size (for example around ten indices) is a housekeeping heuristic, not
 a protocol gate. A materially important image may earn earlier sync; a text-only run
 does not require binary ceremony.
+
+
+INDEX 06 EXPECTED VISUALS
+-------------------------
+asset.vexlife-assortment.r1.i06.home-field-suggestion
+  -> r1-i06-home-field-suggestion.png
+  status=PENDING_BINARY_SYNC
+
+asset.vexlife-assortment.r1.i06.current-reference-home
+  -> r1-i06-current-reference-home.png
+  status=PENDING_BINARY_SYNC
+
+asset.vexlife-assortment.r1.i06.reference-evolution-drawer
+  -> r1-i06-reference-evolution-drawer.png
+  status=PENDING_BINARY_SYNC
+
+These screenshots establish the visual comparison set for the Reference/Evolution contract.
