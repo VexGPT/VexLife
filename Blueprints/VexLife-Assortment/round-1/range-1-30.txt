@@ -222,3 +222,39 @@ DECISIONS / OPEN LOOPS
 - OPEN: exact first-screen placement and Project preview/full-surface anatomy.
 
 ---
+
+
+[VexLife Assortment][Round 1][Index 06]
+state=CONFIRMED_DESIGN_DIRECTION
+
+VICTOR
+Preserve the current working skeleton and Reference/Evolution toggle while we build the first Home block. Keep a current-screen baseline in the PR so Evolution can be compared as a diff rather than replacing behavior. Use dotted styling for not-yet-developed nodes, but derive that visual state from real process/registry state rather than decoration. Decide whether This Project belongs under Project or Frontier and develop with existing infrastructure/registries in mind.
+
+CHATGPT
+Confirmed Reference/Evolution as the safety boundary for Home experimentation. Reference is the accepted current Home/Terrain projection; Evolution is a bounded delta over the same semantic context and must preserve inherited skeleton behavior unless a change is explicitly declared and reviewed.
+
+This Project is classified as semantic kind PROJECT, not Frontier. Frontier remains the projection/index for unplaced candidate seeds. Visual maturity is separated from semantic kind: solid/dotted/ghost styling should derive from implementation/lifecycle/runtime state. A planned but unimplemented node can be dotted; an actually implemented Evolution node can be solid within Evolution even before Reference promotion.
+
+Added:
+- REFERENCE-EVOLUTION-CONTRACT.md
+- CURRENT-SURFACE-BASELINE.md
+- expanded FIRST-PRACTICUM.md
+- Index 06 visual asset keys in the assets manifest
+
+ASSETS
+- asset.vexlife-assortment.r1.i06.home-field-suggestion
+- asset.vexlife-assortment.r1.i06.current-reference-home
+- asset.vexlife-assortment.r1.i06.reference-evolution-drawer
+All remain PENDING_BINARY_SYNC until GitHub image bytes are present.
+
+DECISIONS / OPEN LOOPS
+- CONFIRMED: REFERENCE = accepted current behavior; EVOLUTION = bounded experimental delta.
+- CONFIRMED: Evolution inherits current skeleton behavior unless a delta is explicitly declared.
+- CONFIRMED: This Project semantic kind = PROJECT.
+- CONFIRMED: Frontier = projection/index for unplaced candidate seeds, not the class of This Project.
+- CONFIRMED: node visual treatment must derive from process/infrastructure state.
+- CONFIRMED: current screen baseline belongs in durable design provenance before implementation.
+- OPEN: exact first Home screen layout and exact Project preview anatomy.
+- NEXT: design the first Evolution Home block while maintaining Reference parity.
+
+---
