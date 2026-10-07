@@ -1,23 +1,38 @@
 [VexLife Assortment]
 currentRound=1
-currentIndex=00
-state=ROUND_BOOTSTRAPPED
+lastRecordedIndex=01
+nextIndex=02
+state=PROJECT_BOOTSTRAP_INTEGRITY_CORRECTED
 
 currentFocus=
-  Establish durable Victor ↔ ChatGPT discussion continuity before continuing
-  the top-layer Home Field / node-by-node interface exploration.
+  Install a self-booting VexLife Assortment ChatGPT Project so fresh instances
+  recover design continuity + Local Vex Operations/VexRelay procedure without
+  requiring Victor to remember startup commands or technical routing.
 
-currentDesignQuestion=
-  Should the top-most Home Field show all candidate districts equally, or should
-  it surface a smaller contextual set with Continue emphasized as a resume path?
+currentDesignFrontier=
+  After project installation is stable, resume the top-most Home Field exploration
+  one node at a time. Revisit whether all nine candidate districts belong visibly
+  at layer one; preserve Continue as a high-value resume path candidate.
 
 currentWorkingDirection=
   - Home is a semantic field, not a fixed nine-button menu.
   - CURRENT CONTEXT is the center of the field.
   - Continue is valuable as a prominent resumable projection/path.
   - Candidate districts may exist without all appearing as equal first-layer nodes.
-  - Node-tag colors are visual grammar only and remain design-candidate semantics.
+  - Node-tag colors remain design-candidate visual grammar, not settled ontology.
+  - Fresh thread != new round.
+  - Fresh instance != new writer.
+  - Project Instructions own automatic startup; Victor carries no resume incantation.
+  - Exact GitHub connector effect comes before Relay.
+  - Relay uses live current-contract binding when actually implicated.
+
+github=
+  repository=VexGPT/VexLife
+  branch=VXG-100626-vexlife-assortment-v1
+  pullRequest=1
+  pullRequestState=DRAFT_OPEN
+  mutableHead=REFRESH_BEFORE_EFFECT
 
 nextAction=
-  Continue one node at a time, starting with the top-most Home Field composition,
-  and append each Victor + ChatGPT exchange to the active round log.
+  Complete one-time ChatGPT Project installation from the self-booting transfer
+  package. Then continue Round 1 at Index 02 with the top-layer Home Field design.
