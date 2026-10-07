@@ -110,3 +110,51 @@ DECISIONS / OPEN LOOPS
 - NEXT: install A003, then resume visual design at Round 1 Index 03.
 
 ---
+
+
+[VexLife Assortment][Round 1][Index 02]
+state=CONFIRMED
+
+VICTOR
+2 feedback. You may need to restructure the instructions to be more 'orderly' like 'read everything in this sequence > <and just supply the source locations so it iterates through all them on initial boot' that way instructions doesn't need 'instructions' just 'heres the map of what you should read in sequence.
+second feedback, i noticed that 'assets' didn't have your images, is that a limitation on your part? Do we need to supply images via Vex Relay Protocol from time to time? Like maybe upon ever '10 indexes' we do a Vex Relay Protocol to 'upload images in their respective position in the PRs'
+
+CHATGPT
+The Project Instructions layer was reduced from an overgrown duplicate manual into a
+small boot map. A003's Project Instructions are ~2.8 KB and contain only the ordered
+source-reading map plus post-read grounding/continuation steps. Durable policy and
+Assortment semantics stay in Project Sources.
+
+The missing images in the GitHub assets directory were classified as a transport/tool
+surface issue, not an intentional design choice. The connected GitHub tooling exposes
+Git blob/tree primitives, but this chat environment does not expose a clean
+file-reference -> GitHub-binary-upload handoff for generated local image files. Small
+binary blobs can be bridged via base64, but that is a poor general bulk path for large
+visual assets. Therefore visual durability is capability-routed:
+
+  exact practical direct binary write available -> GitHub connector direct
+  otherwise -> current Local Operations route
+               -> VexRelay/qualified host only when actually required
+
+A fixed 'every 10 indexes' Relay is not made mandatory. Ten indices is retained as a
+useful batching heuristic. Earlier flushes occur for materially important visuals,
+fresh-thread/round handoff, round close, or custody risk; text-only stretches need no
+binary ceremony.
+
+A003 was formed as the replacement self-bootstrapping project package.
+
+ASSETS
+- A003 portable project bundle contains the current full-quality Round 1 visual set.
+- GitHub assets/manifest remains the durable inventory until binary asset flush is completed.
+
+DECISIONS / OPEN LOOPS
+- CONFIRMED: Project Instructions = BOOT MAP, not duplicate project manual.
+- CONFIRMED: ordered Project Sources own expandable operating/project detail.
+- CONFIRMED: visuals are first-class continuity.
+- CONFIRMED: ASSET_SYNC_TRIGGER != FIXED_INDEX_CADENCE.
+- CONFIRMED: about-10-index batching is a heuristic, not authority.
+- CONFIRMED: CONNECTOR_DIRECT precedes Relay when the exact practical authorized effect exists.
+- HELD: complete GitHub binary asset flush awaits a clean/practical binary carriage route for the queued image set.
+- NEXT: install A003, then resume visual design at Round 1 Index 03.
+
+---
