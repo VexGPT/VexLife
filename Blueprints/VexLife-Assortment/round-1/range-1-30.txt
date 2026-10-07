@@ -1,0 +1,25 @@
+[VexLife Assortment][Round 1]
+range=01-30
+state=OPEN
+
+This file begins with Index 01.
+Index 00 is the round bootstrap in `index-00-bootstrap.txt`.
+
+ENTRY TEMPLATE
+--------------
+[VexLife Assortment][Round 1][Index NN]
+state=QUESTION | DESIGN_CANDIDATE | CONFIRMED | HELD | REJECTED | SUPERSEDED
+
+VICTOR
+<verbatim prompt, or reference to a prior round/index when a large quoted answer would duplicate history>
+
+CHATGPT
+<response text or concise visual-response description>
+
+ASSETS
+- <asset paths tied to this index>
+
+DECISIONS / OPEN LOOPS
+- <what changed, what remains open>
+
+---
