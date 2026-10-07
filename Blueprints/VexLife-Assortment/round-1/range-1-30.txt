@@ -258,3 +258,38 @@ DECISIONS / OPEN LOOPS
 - NEXT: design the first Evolution Home block while maintaining Reference parity.
 
 ---
+
+
+[VexLife Assortment][Round 1][Index 07]
+state=CONFIRMED_DESIGN_DIRECTION
+
+VICTOR
+Perceives the Home/Project practicum as somewhat kanban-like, but wants a real live example of how Frontier ideas enter a queue, become honed, organize, move/evolve, and eventually become Projects instead of leaving the model at "here's an idea."
+
+CHATGPT
+Confirmed this as a core use case rather than unnecessary complexity. Frontier is a projection/index over durable candidate records (FeatureSeed/BranchRecord), while Project is a durable semantic work container. A kanban-style board is a useful lifecycle projection, but columns are not canonical truth.
+
+Established a live practicum using "Home Construction Practicum" as a real seed originating from Round 1 / Index 05:
+  HONING + UNPLACED + projected in Frontier
+  -> promotion gate
+  -> PLANNED
+  -> create/link VexLife Assortment / Home Blueprint Project
+  -> ACTIVE / REVIEW / terminal disposition later
+
+The originating seed remains as provenance after promotion; promotion does not delete the seed or lose origin context.
+
+Added FRONTIER-TO-PROJECT.md with the entity model, lifecycle, placement axis, transition contract, live practicum, and first Evolution proof.
+
+ASSETS
+- No new visual yet. The process map is ready to drive the next wireframe.
+
+DECISIONS / OPEN LOOPS
+- CONFIRMED: KANBAN_VIEW != CANONICAL_STATE.
+- CONFIRMED: Frontier = projection/index over candidate/unplaced seed records.
+- CONFIRMED: Project = durable semantic work container.
+- CONFIRMED: lifecycle and placement are orthogonal.
+- CONFIRMED: promotion preserves the originating seed/provenance.
+- CONFIRMED: live practicum seed = Home Construction Practicum.
+- NEXT: wireframe the Frontier -> Project transition as the first process simulation in Evolution.
+
+---
