@@ -1,55 +1,47 @@
 [VexLife Assortment][Round 1][Assets Manifest]
 
-Visuals are first-class continuity. This manifest distinguishes durable asset identity
-from the transport surface used to place bytes in GitHub.
-
-CURRENT INDEX 00 VISUAL SET
----------------------------
-r1-i00-current-root-hub-baseline.png
-  Original current VexLife Root Hub screenshot used to recover the pre-Furnishing design intentions.
-
-r1-i00-navigation-wireframe-full.png
-  Full generated baseline navigation architecture wireframe shown before the one-node-at-a-time workflow was established.
-
-r1-i00-navigation-wireframe-crop-reintroduced.png
-  Victor's reintroduced crop of the baseline wireframe; retained because it was explicitly brought back into the discussion.
-
-r1-i00-empty-vexlife-grid.png
-  Victor's empty/current VexLife Grid reference used as the canvas for top-layer exploration.
-
-r1-i00-home-field-top-layer-concept.png
-  Generated top-most Home Field concept showing CURRENT CONTEXT, emphasized Continue,
-  primary nodes, and secondary edge districts.
-
-NAMING
+POLICY
 ------
-r<round>-i<index>-<short-description>.<ext>
+Visual assets live durably in GitHub and are referenced from Assortment continuity by
+stable key/path. ChatGPT Project Sources intentionally carry no image binaries.
 
-DURABILITY / SYNC POLICY
-------------------------
-Full-quality current assets are retained in the portable Assortment project bundle even
-when the GitHub branch has only this manifest.
+ASSET KEY GRAMMAR
+-----------------
+asset.vexlife-assortment.r<round>.i<index>.<slug>
+  -> Blueprints/VexLife-Assortment/round-<round>/assets/r<round>-i<index>-<slug>.<ext>
 
-Flush queued binary assets to the active Round PR when a DURABLE_VISUAL_CHECKPOINT is
-earned, including:
-- materially referenced/confirmed/rejected visual;
-- fresh-thread or round handoff;
-- round closure;
-- custody-risk before local/project-only bytes could be lost;
-- operational batch point (about 10 indices is a useful heuristic).
+INDEX 00 EXPECTED VISUALS
+-------------------------
+asset.vexlife-assortment.r1.i00.current-root-hub-baseline
+  -> r1-i00-current-root-hub-baseline.png
 
-Route selection:
-  exact practical authorized GitHub binary write -> connector direct
-  otherwise -> current Local Operations route -> Relay/qualified host only if required
+asset.vexlife-assortment.r1.i00.navigation-wireframe-full
+  -> r1-i00-navigation-wireframe-full.png
 
-Do not form a Relay solely because an index number reached 10. Text-only indices do not
-need binary ceremony. Conversely, one important image may warrant immediate flush.
+asset.vexlife-assortment.r1.i00.navigation-wireframe-crop-reintroduced
+  -> r1-i00-navigation-wireframe-crop-reintroduced.png
 
-CURRENT LIMIT
--------------
-The connected GitHub surface exposes Git blob/tree primitives, but this chat environment
-does not expose a clean file-reference -> GitHub binary upload handoff for generated
-local files. Base64 bridging is possible for small blobs but is not the preferred bulk
-path for large visual sets. Until a clean direct binary carriage is available, preserve
-the exact asset package + manifest and use one bounded asset-sync Relay/host operation
-when a durable binary flush is actually needed.
+asset.vexlife-assortment.r1.i00.empty-vexlife-grid
+  -> r1-i00-empty-vexlife-grid.png
+
+asset.vexlife-assortment.r1.i00.home-field-top-layer-concept
+  -> r1-i00-home-field-top-layer-concept.png
+
+CURRENT BYTE STATUS
+-------------------
+PENDING_BINARY_SYNC
+
+As of the A004 fresh-instance audit, this GitHub assets directory contains this manifest
+but not the five named image files above. Their semantic references are preserved, but
+a fresh instance must not claim it inspected those images from GitHub until the actual
+files are present.
+
+SYNC ROUTING
+------------
+Use the exact practical authorized GitHub binary-write effect when available.
+If direct binary carriage is not practical/available, use the governed Local Operations
+route and VexRelay/qualified host only when the exact effect requires it.
+
+A useful batch size (for example around ten indices) is a housekeeping heuristic, not
+a protocol gate. A materially important image may earn earlier sync; a text-only run
+does not require binary ceremony.
