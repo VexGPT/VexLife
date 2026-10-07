@@ -23,3 +23,42 @@ DECISIONS / OPEN LOOPS
 - <what changed, what remains open>
 
 ---
+
+[VexLife Assortment][Round 1][Index 01]
+state=CONFIRMED
+
+VICTOR
+thats not good enough for long term integrity, you assume id know how to provide the fresh thread command, cuz you're referencing things as part of the instructions, which could be integrated in the instructions process itself, not 'give the human mental burden to carry instructions'. Like can you perceive the wholeness of the process, not 'duplicate the prior instructions without modification' and supply a mess without proper organization. Like its very 'Not Vextreme' the way you handled it, can you expand your aperture lens to perceive being a fresh instance booting up the first time and having your questions answered instead of being made to 'work and figure things out without guidance' like be considerate
+
+CHATGPT
+The prior transfer design was corrected at the system level rather than patched with
+another human resume phrase. The replacement Assortment Project package makes fresh
+instance boot automatic:
+
+- Project Instructions tell the instance what it is, what to read, how to discover
+  the current Round/Index, how to re-ground GitHub, and how to continue.
+- Victor is not expected to remember a startup command, branch, PR, index, Relay
+  route, or recovery procedure.
+- Fresh thread != new round and fresh instance != new writer.
+- The project separates stable operating policy, mutable Assortment state, durable
+  GitHub discussion records, and visual assets instead of dumping duplicate manuals
+  into one undifferentiated folder.
+- Exact connected GitHub actions are used connector-direct before VexRelay.
+- If Relay is truly implicated, the installed R3 policy requires live
+  source.vexrelay.current-contract/v1 binding before new formation.
+- A one-time installation guide is supplied; after installation future threads
+  self-orient and answer Victor's actual request.
+
+ASSETS
+- No new design image is required for this workflow-integrity correction.
+
+DECISIONS / OPEN LOOPS
+- CONFIRMED: NO_HUMAN_RESUME_INCANTATION.
+- CONFIRMED: PROJECT_INSTRUCTIONS_OWN_AUTOMATIC_FRESH_INSTANCE_BOOT.
+- CONFIRMED: FRESH_THREAD != NEW_ROUND.
+- CONFIRMED: FRESH_INSTANCE != NEW_WRITER.
+- CONFIRMED: CONNECTOR_DIRECT precedes Relay for an exact authorized provider effect.
+- CONFIRMED: stable Operations/Relay policy and mutable Assortment/GitHub state remain separate.
+- NEXT: after the one-time Project installation, resume visual design at Round 1 Index 02.
+
+---
