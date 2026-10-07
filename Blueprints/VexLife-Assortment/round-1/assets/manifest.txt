@@ -1,0 +1,25 @@
+[VexLife Assortment][Round 1][Assets Manifest]
+
+The starter ZIP contains these Index 00 visual references for local placement:
+
+r1-i00-current-root-hub-baseline.png
+  Original current VexLife Root Hub screenshot used to recover the pre-Furnishing design intentions.
+
+r1-i00-navigation-wireframe-full.png
+  Full generated baseline navigation architecture wireframe shown before the one-node-at-a-time workflow was established.
+
+r1-i00-navigation-wireframe-crop-reintroduced.png
+  Victor's reintroduced crop of the baseline wireframe; retained because it was explicitly brought back into the discussion.
+
+r1-i00-empty-vexlife-grid.png
+  Victor's empty/current VexLife Grid reference used as the canvas for top-layer exploration.
+
+r1-i00-home-field-top-layer-concept.png
+  Generated top-most Home Field concept showing CURRENT CONTEXT, emphasized Continue, primary nodes, and secondary edge districts.
+
+Naming rule for future assets:
+  r<round>-i<index>-<short-description>.<ext>
+
+Note:
+  Binary image files are supplied in the companion starter ZIP so they can be
+  copied into this directory from a local checkout and committed to the same branch.
