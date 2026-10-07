@@ -8,11 +8,11 @@ bootstrapGeneration=
   VEXLIFE-ASSORTMENT-ORIENTATION-20261007-A004
 
 currentDesignFrontier=
-  Resume the top-most Home Field exploration one node at a time, now using the
-  preserved Foundation Intent and Frontier -> Project promotion model.
-  Revisit which candidate districts deserve first-layer visibility.
-  Preserve Continue as a strong resumable-path candidate.
-  Re-evaluate the provisional projection / subject / seed visual grammar.
+  Build the first Evolution Home block around This Project while preserving
+  Reference behavior as the regression baseline.
+  Define the Project node -> preview -> full surface expansion.
+  Derive candidate/implemented/held visual treatment from infrastructure state,
+  not decorative styling.
 
 currentWorkingDirection=
   - Home is a semantic field, not a fixed nine-button menu.
@@ -48,5 +48,5 @@ heldEdge=
   round-1/assets currently contains manifest.txt but not the named image binaries.
 
 nextAction=
-  Continue Round 1 from Index 05 with Home Field / node-definition work.
-  Use INTENTION.md as the revisitability foundation rather than replaying the full ledger.
+  Continue Round 1 from Index 07 by drawing/designing the first Evolution Home
+  block for This Project and checking it against the Reference baseline/skeleton.
