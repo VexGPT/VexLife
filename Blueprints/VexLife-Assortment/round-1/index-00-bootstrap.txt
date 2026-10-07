@@ -1,0 +1,82 @@
+[VexLife Assortment][Round 1][Index 00]
+recordType=ROUND_BOOTSTRAP
+state=CONFIRMED_WORKFLOW
+createdLocal=2026-10-06 PDT
+
+PURPOSE
+-------
+Establish a durable GitHub-backed continuity trail for the VexLife Assortment
+interface/design exploration before continuing node-by-node wireframe work.
+
+VICTOR INTENT
+-------------
+Victor wants the discussion preserved in sequence so fresh ChatGPT instances can
+recover the actual design conversation without requiring a full re-explanation.
+The desired system is round/index based, with paired prompt/response records,
+visual assets stored beside the relevant indices, rolling text files for ranges,
+and a new round beginning with a prior-round summary.
+
+CAPTURE RULES CONFIRMED
+-----------------------
+- Save Victor's questions/prompts unless they mainly duplicate a large prior
+  ChatGPT response; in that case reference the existing round/index entry.
+- Save ChatGPT's response text and visual outputs.
+- If a prior image is cropped/reintroduced and materially matters, keep both the
+  full/original reference and the cropped/reintroduced version.
+- Use per-round asset directories and index-affine filenames.
+- Keep a small CURRENT.txt pointer for fast reorientation.
+- Treat the continuity trail as discussion provenance, not automatic product truth.
+
+PRE-ROUND CONTEXT SUMMARY
+-------------------------
+The immediately preceding design recovery established that the later intended
+Home model was not a permanent set of equal app/menu buttons. The recovered
+human-experience direction was:
+
+  Home/Terrain = contextual semantic field
+  Center = current semantic context
+  Vex = primarily persistent companion/co-navigator
+  Continue = derived resumable projection/path
+  Candidate districts = Vex, Continue, Projects, Journal, Relationships,
+                        Library, Worlds, Online, Frontier
+  Multiple projections != multiple sources of truth
+  Nodes may progressively become richer/full surfaces
+  Unplaced != orphaned
+
+A first wireframe pass and a top-layer Home Field concept were generated. Victor
+then asked to slow down and explore one node at a time while preserving the
+conversation and visual references in GitHub.
+
+VICTOR PROMPT — INDEX 00
+------------------------
+Victor asked to establish a GitHub-backed workflow before continuing:
+- create a fresh branch/PR from current main for VexLife Assortment Round 1;
+- preserve Victor prompts and ChatGPT responses in indexed sequence;
+- preserve original + cropped/reintroduced visuals when materially relevant;
+- use rolling range files for ordinary indices;
+- begin future rounds with a prior-round summary;
+- keep visual assets in the round directory with index-affine names;
+- make fresh-instance continuation possible without re-explaining the design history.
+
+CHATGPT ACTION / RESPONSE SUMMARY
+---------------------------------
+- Adopt the round/index continuity workflow.
+- Use `index-00-bootstrap.txt` as a special round bootstrap; ordinary paired
+  exchanges begin at Index 01 and flow into `range-1-30.txt`.
+- Use `Blueprints/VexLife-Assortment/` as the repository home because the current
+  VexLife repository exposes `Blueprints/` as its existing top-level design area.
+- Use a draft PR for the active round so the conversation can continue accumulating
+  before merge.
+- Preserve current baseline/reference visuals under `round-1/assets/`.
+- Keep CURRENT.txt updated as the fast orientation pointer.
+
+WORKING DESIGN NOTE
+-------------------
+The color tags shown in the concept image are not treated as finalized ontology.
+Current working visual grammar only:
+
+  blue   = projection / view into something
+  green  = subject / enterable semantic thing
+  amber  = seed / emerging or unplaced idea
+
+This remains DESIGN_CANDIDATE and can change during Round 1.
