@@ -1,44 +1,57 @@
-# VexLife Assortment — discussion continuity scaffold
+# VexLife Assortment — durable design-discussion continuity
 
-Purpose: preserve Victor ↔ ChatGPT design exploration as an inspectable, source-controlled sequence of text + visual references without pretending the discussion itself is canonical product truth.
+Purpose: preserve Victor ↔ ChatGPT VexLife design exploration as an inspectable, source-controlled sequence of text + visual references while keeping discussion provenance separate from canonical product truth.
+
+## Human-burden rule
+
+A fresh VexLife Assortment conversation must **not** require Victor to remember or paste a resume incantation, round/index number, branch, PR, or Relay procedure.
+
+The ChatGPT Project Instructions own automatic fresh-instance boot. A fresh instance reads the installed Project Sources, discovers the current round/index from the current-state pointer, re-grounds mutable GitHub state, adopts the existing compatible occupancy, and then answers Victor's actual request.
+
+```text
+FRESH_THREAD != NEW_ROUND
+FRESH_INSTANCE != NEW_WRITER
+PROJECT_RELOCATION != LANE_RESET
+```
 
 ## Continuity identity
 
 - Project: `VexLife Assortment`
-- Round: increment when a discussion arc closes and a fresh thread/instance takes over.
-- Index: one paired Victor + ChatGPT exchange inside a round.
-- Bootstrap: `index-00-bootstrap.txt` establishes a round's protocol/context before ordinary indices begin.
+- Round: a deliberate design phase, **not** a conversation/thread boundary.
+- Index: one material paired Victor + ChatGPT exchange inside a round.
+- Bootstrap: `index-00-bootstrap.txt` establishes a round before ordinary indices.
 - Rolling logs: `range-1-30.txt`, then `range-31-60.txt`, etc.
+- `CURRENT.txt`: lightweight durable pointer; refresh mutable GitHub facts before effects.
 
-## Capture rules
+## Automatic capture rules
 
 1. Preserve Victor's prompt/question verbatim when practical.
-2. If Victor pastes a large prior ChatGPT answer, replace that quoted block with its existing `[VexLife Assortment][Round N][Index NN]` reference instead of duplicating it.
-3. Preserve ChatGPT's response text and any generated visual references under the same index.
-4. When Victor reuses or crops an earlier visual, preserve both the original source visual and the reused/cropped visual when they materially affect the discussion.
-5. Assets are named with round/index affinity, for example `r1-i03-home-field.png`.
-6. Discussion records may classify conclusions as `QUESTION`, `DESIGN_CANDIDATE`, `CONFIRMED`, `HELD`, `REJECTED`, or `SUPERSEDED`.
-7. Discussion continuity is evidence/provenance; it does not automatically become product/source authority.
-8. `CURRENT.txt` is the lightweight fresh-instance orientation pointer.
+2. If Victor pastes a large prior ChatGPT answer, replace that duplicated quoted block with its existing `[VexLife Assortment][Round N][Index NN]` reference.
+3. Preserve ChatGPT's substantive response text or a complete bounded visual-response description.
+4. Preserve generated/reintroduced visuals under the same index. If a crop materially changes the discussion, retain both original and crop.
+5. Assets use round/index affinity, e.g. `r1-i03-home-field.png`.
+6. Record dispositions such as `QUESTION`, `DESIGN_CANDIDATE`, `CONFIRMED`, `HELD`, `REJECTED`, or `SUPERSEDED`.
+7. Discussion continuity is provenance/evidence; it does not automatically become product/source authority.
+8. After each material exchange, update the active range log and `CURRENT.txt` through the exact available authorized GitHub effect.
+9. If direct GitHub write is unavailable, select the governed Local Operations/VexRelay route rather than making Victor choose technical recovery.
+10. A new round is formed only when the design phase deliberately transitions; a fresh chat continues the current round by default.
 
-## Round handoff
+## GitHub / Relay rule
 
-At the end of a round:
+Use the exact connected GitHub provider effect directly when it exists and is authorized. Do **not** form VexRelay for an effect that can be performed connector-direct.
 
-- summarize accepted/held/rejected design directions;
-- record the last index;
-- merge/close the round PR when appropriate;
-- create the next round from current main;
-- `[Round N+1][Index 01]` begins with a compact summary of the prior round before new work continues.
+When a required effect cannot be performed directly and Relay is implicated, the operator must use the installed Local Vex Operations R3 policy, fetch the live `source.vexrelay.current-contract/v1`, lock the current route/adapter, and use the current named recipe/template/schema path as applicable.
 
-Suggested resume phrase in a fresh thread:
-
-`Resume [VexLife Assortment][Round N] from the current GitHub continuity pointer.`
+Victor is not the technical message bus and does not choose scripts, branches, recovery routes, or logs.
 
 ## Repository placement
 
-This directory is intended to live at:
+Durable Assortment discussion state lives at:
 
 `Blueprints/VexLife-Assortment/`
 
-The starter ZIP is structured so it can be extracted from the VexLife repository root.
+The ChatGPT Project carries the automatic boot instructions and Local Vex Operations / VexRelay operating sources. The repository does not need to duplicate the complete normative manuals; `PROJECT-BOOTSTRAP-POINTER.md` explains the boundary.
+
+## Fresh-instance behavior
+
+After project installation, no special user command is required. On the first substantive turn a fresh instance should orient automatically and continue the current Round/Index while responding to Victor's actual request.
