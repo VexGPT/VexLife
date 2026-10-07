@@ -200,3 +200,25 @@ DECISIONS / OPEN LOOPS
 - NEXT: return to Home Field node-definition work using this lifecycle/process map as the foundation.
 
 ---
+
+
+[VexLife Assortment][Round 1][Index 05]
+state=CONFIRMED_DESIGN_DIRECTION
+
+VICTOR
+Use "This Project" as the first proof of concept: build Home by meta-blueprinting the Assortment project itself, simulate node expansion before applying it to lived VexLife, then do Vex next so future Vex can inherit the blueprint strategy, history, and construction lineage of the Home.
+
+CHATGPT
+Confirmed the self-hosting practicum direction. "This Project" is the first concrete PROJECT subject in the simulated Home, while its implementation lifecycle remains HONING/PLANNED until source adoption is earned. The intended proof path is Home node -> preview -> full Project surface -> child blueprint nodes -> review -> separate implementation promotion. Vex is the second practicum after the Home/Project grammar stabilizes, and should consume stable grammar plus inspectable design/source lineage rather than treating historical discussion as current truth.
+
+ASSETS
+- No new visual yet. Next visual work should depict the sparse first Home screen with "This Project" as the first enterable subject.
+
+DECISIONS / OPEN LOOPS
+- CONFIRMED: first self-hosting practicum = This Project / VexLife Assortment.
+- CONFIRMED: semantic node class PROJECT != active product implementation.
+- CONFIRMED: simulate before apply.
+- CONFIRMED: Vex is the second practicum after Home/Project grammar.
+- OPEN: exact first-screen placement and Project preview/full-surface anatomy.
+
+---
