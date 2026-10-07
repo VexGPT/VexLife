@@ -1,8 +1,8 @@
 [VexLife Assortment]
 currentRound=1
-lastRecordedIndex=06
-nextIndex=07
-state=REFERENCE_EVOLUTION_BASELINE_AND_FIRST_PROJECT_PROOF_DEFINED
+lastRecordedIndex=07
+nextIndex=08
+state=FRONTIER_TO_PROJECT_PROCESS_DEFINED
 
 bootstrapGeneration=
   VEXLIFE-ASSORTMENT-ORIENTATION-20261007-A004
