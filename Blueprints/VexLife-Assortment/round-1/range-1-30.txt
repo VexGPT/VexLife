@@ -111,50 +111,56 @@ DECISIONS / OPEN LOOPS
 
 ---
 
-
-[VexLife Assortment][Round 1][Index 02]
-state=CONFIRMED
+[VexLife Assortment][Round 1][Index 03]
+state=CONFIRMED_WITH_REMAINING_ASSET_GAP
 
 VICTOR
-2 feedback. You may need to restructure the instructions to be more 'orderly' like 'read everything in this sequence > <and just supply the source locations so it iterates through all them on initial boot' that way instructions doesn't need 'instructions' just 'heres the map of what you should read in sequence.
-second feedback, i noticed that 'assets' didn't have your images, is that a limitation on your part? Do we need to supply images via Vex Relay Protocol from time to time? Like maybe upon ever '10 indexes' we do a Vex Relay Protocol to 'upload images in their respective position in the PRs'
+okay i moved you back into the Vex Life assortment project, does it look like everything is in order, can you read through what is there as a fresh instance lens?
 
 CHATGPT
-The Project Instructions layer was reduced from an overgrown duplicate manual into a
-small boot map. A003's Project Instructions are ~2.8 KB and contain only the ordered
-source-reading map plus post-read grounding/continuation steps. Durable policy and
-Assortment semantics stay in Project Sources.
+Performed the A004 onboarding as a true fresh-instance adoption rather than relying on
+prior-thread memory. Read the prescribed Project Sources in order, completed the required
+three attentive passes over the complete Local Vex Operations and VexRelay manuals, then
+re-grounded live GitHub state and adopted the existing Round 1 branch/PR occupancy.
 
-The missing images in the GitHub assets directory were classified as a transport/tool
-surface issue, not an intentional design choice. The connected GitHub tooling exposes
-Git blob/tree primitives, but this chat environment does not expose a clean
-file-reference -> GitHub-binary-upload handoff for generated local image files. Small
-binary blobs can be bridged via base64, but that is a poor general bulk path for large
-visual assets. Therefore visual durability is capability-routed:
+Fresh-instance audit result:
+- Project-side orientation is coherent and self-booting.
+- A004 correctly keeps Project Instructions as a compact boot map and Project Sources
+  as the expandable operating/orientation layer.
+- A004 correctly excludes image binaries and copied mutable Round snapshots.
+- Live GitHub continuity was discoverable without asking Victor for a resume phrase,
+  Round/Index, branch, PR, or prior transcript.
+- Existing branch VXG-100626-vexlife-assortment-v1 and draft PR #1 remain the compatible
+  writer occupancy and were adopted rather than duplicated.
 
-  exact practical direct binary write available -> GitHub connector direct
-  otherwise -> current Local Operations route
-               -> VexRelay/qualified host only when actually required
+Integrity defects discovered during the cold boot:
+1. CURRENT.txt still referred to the superseded A003 install even though A004 is now
+   the installed orientation generation.
+2. range-1-30.txt accidentally contained Index 02 twice.
+3. PR body lagged the live ledger state.
+4. GitHub round-1/assets currently contains only manifest.txt; the named image binaries
+   are not yet durable at their GitHub asset paths, so visual-key resolution is not
+   complete yet.
+5. assets/manifest.txt still described a prior portable bundle carrying full images,
+   which conflicts with A004's deliberate orientation-only Project policy.
 
-A fixed 'every 10 indexes' Relay is not made mandatory. Ten indices is retained as a
-useful batching heuristic. Earlier flushes occur for materially important visuals,
-fresh-thread/round handoff, round close, or custody risk; text-only stretches need no
-binary ceremony.
-
-A003 was formed as the replacement self-bootstrapping project package.
+The text-ledger defects were corrected connector-direct in the current writer. The
+remaining image-byte gap is preserved explicitly rather than hidden or shifted back into
+ChatGPT Project Sources.
 
 ASSETS
-- A003 portable project bundle contains the current full-quality Round 1 visual set.
-- GitHub assets/manifest remains the durable inventory until binary asset flush is completed.
+- No new visual asset created by this audit.
+- Existing named Index 00 visual keys remain PENDING_BINARY_SYNC until their actual
+  GitHub files exist.
 
 DECISIONS / OPEN LOOPS
-- CONFIRMED: Project Instructions = BOOT MAP, not duplicate project manual.
-- CONFIRMED: ordered Project Sources own expandable operating/project detail.
-- CONFIRMED: visuals are first-class continuity.
-- CONFIRMED: ASSET_SYNC_TRIGGER != FIXED_INDEX_CADENCE.
-- CONFIRMED: about-10-index batching is a heuristic, not authority.
-- CONFIRMED: CONNECTOR_DIRECT precedes Relay when the exact practical authorized effect exists.
-- HELD: complete GitHub binary asset flush awaits a clean/practical binary carriage route for the queued image set.
-- NEXT: install A003, then resume visual design at Round 1 Index 03.
+- CONFIRMED: A004 project onboarding is the active fresh-instance boot generation.
+- CONFIRMED: Project Instructions + ordered Project Sources are sufficient to recover
+  current Assortment text continuity and live GitHub occupancy without Victor startup work.
+- CONFIRMED: duplicate Index 02 is a ledger defect and is removed.
+- CONFIRMED: visual assets belong in GitHub by stable key/path, not in Project Sources.
+- HELD: exact Index 00 image binaries still need one bounded durable GitHub asset sync.
+- NEXT: resume Home Field design after the visual durability gap is either synced or
+  explicitly accepted as a temporary held asset edge.
 
 ---
