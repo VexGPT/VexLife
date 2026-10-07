@@ -1,30 +1,41 @@
 [VexLife Assortment]
 currentRound=1
-lastRecordedIndex=01
-nextIndex=02
-state=PROJECT_BOOTSTRAP_INTEGRITY_CORRECTED
+lastRecordedIndex=02
+nextIndex=03
+state=PROJECT_BOOT_MAP_AND_ASSET_SYNC_POLICY_CORRECTED
 
 currentFocus=
-  Install a self-booting VexLife Assortment ChatGPT Project so fresh instances
-  recover design continuity + Local Vex Operations/VexRelay procedure without
-  requiring Victor to remember startup commands or technical routing.
+  Finish one-time Assortment Project installation using A003: compact boot-map
+  Project Instructions plus ordered Project Sources. Remove human startup burden.
 
 currentDesignFrontier=
-  After project installation is stable, resume the top-most Home Field exploration
-  one node at a time. Revisit whether all nine candidate districts belong visibly
-  at layer one; preserve Continue as a high-value resume path candidate.
+  After A003 is installed, resume the top-most Home Field exploration one node
+  at a time. Revisit which candidate districts belong visibly at layer one and
+  preserve Continue as a strong resumable-path candidate.
 
 currentWorkingDirection=
-  - Home is a semantic field, not a fixed nine-button menu.
-  - CURRENT CONTEXT is the center of the field.
-  - Continue is valuable as a prominent resumable projection/path.
-  - Candidate districts may exist without all appearing as equal first-layer nodes.
-  - Node-tag colors remain design-candidate visual grammar, not settled ontology.
+  - Project Instructions are a compact read-order boot map, not a duplicate manual.
+  - Fresh instance reads ordered Project Sources, re-grounds GitHub, then answers Victor naturally.
   - Fresh thread != new round.
   - Fresh instance != new writer.
-  - Project Instructions own automatic startup; Victor carries no resume incantation.
-  - Exact GitHub connector effect comes before Relay.
-  - Relay uses live current-contract binding when actually implicated.
+  - Home is a semantic field, not a fixed nine-button menu.
+  - CURRENT CONTEXT is the center of the field.
+  - Continue remains a high-value resumable projection/path candidate.
+  - Node-tag colors remain design-candidate visual grammar.
+  - Visuals are first-class continuity.
+  - Asset durability is capability-routed, not fixed to an arbitrary index cadence.
+  - Exact authorized GitHub connector effect precedes Relay.
+  - Relay is fallback/host transport only when the exact effect actually requires it.
+
+assetSyncPolicy=
+  DURABLE_VISUAL_CHECKPOINT triggers asset flush when one or more applies:
+  - an image becomes materially referenced/confirmed/rejected in design reasoning;
+  - a fresh-thread/round handoff is approaching;
+  - the queued asset batch is operationally useful to flush (e.g. about 10 indices);
+  - a round is closing;
+  - loss of local/project-only asset custody would impair continuity.
+  Route: direct exact GitHub binary write if practical/available; otherwise governed Relay/host batch.
+  Ten indices is a batching heuristic, not protocol authority.
 
 github=
   repository=VexGPT/VexLife
@@ -34,5 +45,5 @@ github=
   mutableHead=REFRESH_BEFORE_EFFECT
 
 nextAction=
-  Complete one-time ChatGPT Project installation from the self-booting transfer
-  package. Then continue Round 1 at Index 02 with the top-layer Home Field design.
+  Install A003 in the VexLife Assortment ChatGPT Project, then continue Round 1
+  at Index 03 with the top-layer Home Field / first-node exploration.
